@@ -30,11 +30,11 @@ on:
       armbian_kernel:
         description: "Select kernel version."
         required: false
-        default: "6.12.y"
+        default: "6.1.y_6.12.y"
         type: choice
         options:
           - 6.12.y
-          - 6.6.y_6.12.y
+          - 6.1.y_6.12.y
       auto_kernel:
         description: "Auto use the latest kernel."
         required: false
